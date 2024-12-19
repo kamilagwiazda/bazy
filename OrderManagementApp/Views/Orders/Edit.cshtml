@@ -1,0 +1,27 @@
+﻿@using OrderManagementApp.Models  
+@model OrderManagementApp.Models.Order  
+
+@{
+    ViewData["Title"] = "Edit Order"; <!-- Tytuł strony -->
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label for="CustomerName">Customer Name</label>
+        <input asp-for="CustomerName" class="form-control" />  
+        <span asp-validation-for="CustomerName" class="text-danger"></span>  
+    </div>
+
+    <div class="form-group">
+        <label for="OrderDate">Order Date</label>
+        <input asp-for="OrderDate" class="form-control" />  
+        <span asp-validation-for="OrderDate" class="text-danger"></span>  
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update Order</button>  
+</form>
+
+
+

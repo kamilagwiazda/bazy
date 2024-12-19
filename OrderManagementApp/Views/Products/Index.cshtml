@@ -1,0 +1,36 @@
+﻿@using OrderManagementApp.Models  
+@model IEnumerable<OrderManagementApp.Models.Product> 
+
+@{
+    ViewData["Title"] = "Products List"; 
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Stock Quantity</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+        <tr>
+            <td>@product.Id</td>
+            <td>@product.Name</td>
+            <td>@product.Price</td>
+            <td>@product.StockQuantity</td>
+            <td>
+                <a href="@Url.Action("Edit", "Products", new { id = product.Id })">Edit</a> |
+                <a href="@Url.Action("Details", "Products", new { id = product.Id })">Details</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+

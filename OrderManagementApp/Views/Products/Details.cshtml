@@ -1,0 +1,19 @@
+﻿@using OrderManagementApp.Models
+@model OrderManagementApp.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <strong>Name:</strong> @Model.Name
+</div>
+<div>
+    <strong>Price:</strong> @Model.Price
+</div>
+<div>
+    <strong>Stock Quantity:</strong> @Model.StockQuantity
+</div>
+

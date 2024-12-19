@@ -1,0 +1,70 @@
+﻿<Properties StartupConfiguration="{054AFB20-E397-423D-91EF-740ABF4BF04D}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.OrderManagementApp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OrderManagementApp/Controllers/AccountController.cs">
+    <Files>
+      <File FileName="OrderManagementApp/Controllers/HomeController.cs" Line="31" Column="1" />
+      <File FileName="OrderManagementApp/Controllers/OrdersController.cs" Line="6" Column="5" />
+      <File FileName="OrderManagementApp/Controllers/ProductsController.cs" Line="6" Column="4" />
+      <File FileName="OrderManagementApp/Controllers/AccountController.cs" Line="50" Column="2" />
+      <File FileName="OrderManagementApp/Models/Order.cs" Line="8" Column="38" />
+      <File FileName="OrderManagementApp/Models/Product.cs" Line="5" Column="38" />
+      <File FileName="OrderManagementApp/Models/OrderItem.cs" Line="5" Column="38" />
+      <File FileName="OrderManagementApp/Models/Category.cs" Line="7" Column="38" />
+      <File FileName="OrderManagementApp/Models/ApplicationUser.cs" Line="5" Column="47" />
+      <File FileName="OrderManagementApp/Models/LoginViewModel.cs" Line="21" Column="1" />
+      <File FileName="OrderManagementApp/Models/RegisterViewModel.cs" Line="5" Column="44" />
+      <File FileName="OrderManagementApp/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="OrderManagementApp/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="OrderManagementApp/Views/Orders/Index.cshtml" Line="24" Column="26" />
+      <File FileName="OrderManagementApp/Views/Orders/Create.cshtml" Line="5" Column="45" />
+      <File FileName="OrderManagementApp/Views/Orders/Details.cshtml" Line="19" Column="44" />
+      <File FileName="OrderManagementApp/Views/Orders/Edit.cshtml" Line="28" Column="1" />
+      <File FileName="OrderManagementApp/Views/Products/Index.cshtml" Line="21" Column="40" />
+      <File FileName="OrderManagementApp/Views/Products/Create.cshtml" Line="29" Column="76" />
+      <File FileName="OrderManagementApp/Views/Products/Edit.cshtml" Line="31" Column="1" />
+      <File FileName="OrderManagementApp/Views/Products/Details.cshtml" Line="19" Column="1" />
+      <File FileName="OrderManagementApp/Views/Account/Login.cshtml" Line="22" Column="64" />
+      <File FileName="OrderManagementApp/Views/Account/Register.cshtml" Line="31" Column="1" />
+      <File FileName="OrderManagementApp/Program.cs" Line="7" Column="1" />
+      <File FileName="OrderManagementApp/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="OrderManagementApp/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="OrderManagementApp/Areas/Identity/Pages/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="OrderManagementApp/Models/ErrorViewModel.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OrderManagementApp" expanded="True">
+            <Node name="OrderManagementApp" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Identity" expanded="True">
+                  <Node name="Pages" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="AccountController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Orders" expanded="True" />
+                <Node name="Products" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,24 @@
+﻿@using OrderManagementApp.Models  
+@model OrderManagementApp.Models.Order  
+
+@{
+    ViewData["Title"] = "Order Details"; 
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <strong>Customer Name:</strong> @Model.CustomerName  
+</div>
+<div>
+    <strong>Order Date:</strong> @Model.OrderDate.ToShortDateString()  
+</div>
+
+<h3>Order Items</h3>
+<ul>
+    @foreach (var item in Model.OrderItems)
+    {
+    <li>@item.Product.Name - Quantity: @item.Quantity</li>
+    }
+</ul>
+
